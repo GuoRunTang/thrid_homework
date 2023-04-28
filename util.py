@@ -68,6 +68,7 @@ def test_topic(para_list,para_label):
     random_indices = random.sample(range(len(para_list)), 1)
     test_ls.extend([para_list[i] for i in random_indices])
     test_label.extend([para_label[i] for i in random_indices])
+    print("test_label : " + str(test_label))
     test_tokens_word = []
     test_tokens_word_label = []
 
